@@ -24,9 +24,9 @@ public class ConnectionPool {
         try{
            // Class.forName("com.mysql.cj.jdbc.Driver")
           //  DriverManager.registerDriver(new com.mysql.jdbc.Driver()); //Argregar esto: allowPublicKeyRetrieval=true&useSSL=false si la conexion es bateada
-           String url       = "jdbc:mysql://localhost:3306/factura2023?allowPublicKeyRetrieval=true&useSSL=false";
-           String user      = "root";
-           String password  = "superiker2435";
+           String url       = "url";
+           String user      = "usr";
+           String password  = "pass";
             conexion = DriverManager.getConnection (
                 url,user, password);
      
